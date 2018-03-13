@@ -1,6 +1,6 @@
 # Datathon-Cajamar-2018
 
-Este repositorio contiene el código con el que se ha realizado el Datathon de Cajamar, reto Salesforce Predictive Modelling, así como las tablas intermedias creadas y los gráficos obtenidos. Explicamos a continuación como hemos organizado los scripts:
+Este repositorio contiene el código con el que se ha realizado el Datathon de Cajamar, reto Salesforce Predictive Modelling, así como el diccionario de transformación de los factores y los gráficos obtenidos. Explicamos a continuación como hemos organizado los scripts:
 
 
 El código para este Datathon se divide en cinco partes, cada una en su respectivo archivo .R, en cada uno se encuentran comentarios sobre lo que se va descubriendo sobre los datos y sobre lo que se va haciendo, a parte de por qué se hace y las conclusiones obtenidas. 
