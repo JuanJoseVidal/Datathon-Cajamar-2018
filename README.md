@@ -9,8 +9,6 @@ Para una cómoda reproducción de los resultados, se ha añadido una variable ll
 
 El formato de los códigos está codificado en UTF-8, por lo que si los acentos de los comentarios no se leen correctamente, sólo habrá que ir a File>Reopen With Encoding... y seleccionar UTF-8.
 
-Pasemos a explicar los cinco scripts:
-
 ## Las cinco partes del código
 El primero, llamado Data Wrangling, se dedica a explorar brevemente los datos, busca valores vacíos, que sólo se encuentran en la variable Socio_Demo_01. Así pues, se separan las variables numéricas y categóricas para un tratamiento correcto de los datos. También se realiza un PCA de las variables numéricas para añadir más variables explicativas a los datos.
 
