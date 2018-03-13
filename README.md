@@ -11,6 +11,7 @@ El formato de los códigos está codificado en UTF-8, por lo que si los acentos 
 
 Pasemos a explicar los cinco scripts:
 
+## Las cinco partes del código
 El primero, llamado Data Wrangling, se dedica a explorar brevemente los datos, busca valores vacíos, que sólo se encuentran en la variable Socio_Demo_01. Así pues, se separan las variables numéricas y categóricas para un tratamiento correcto de los datos. También se realiza un PCA de las variables numéricas para añadir más variables explicativas a los datos.
 
 El segundo, llamado Feature Selection automator, realiza múltiples iteraciones sobre los datos, seleccionando subconjuntos y entrenando xgboosters en ellos guardando en cada iteración las variables que superan un 0.5% de ganancia en la explicación de la variable respuesta, creando así una selección de variables robusta. Generamos así las tabla únicamente con las variables con las que entrenaremos los distintos modelos.
